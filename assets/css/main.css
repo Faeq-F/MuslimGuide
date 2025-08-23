@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import "tailwindcss";
+@import "@nuxt/ui";
+@import "./layout.css";
+@import "./maz-ui-variables.css";
+import 'maz-ui/styles'
+
+*{
+  transition: 200ms all;
+  scroll-behavior: smooth;
+}
+
+*{
+  transition: 200ms all;
+  scroll-behavior: smooth;
+}
+
+[data-reka-popper-content-wrapper]{
+  transition: unset;
+}
+
+#navbar,
+body{
+  transition: 200ms all ease-in-out;
+
+}
+
+::selection {
+  background-color: #eeeeee !important;
+}
+
+.dark ::selection {
+  background-color: #142550 !important;
+}
+
+/* Scroll bar */
+
+  * {
+    scrollbar-color: gray transparent;
+    scrollbar-width: thin;
+  }
+
+  .docsContent:has(iframe){
+    overflow: hidden;
+  }
+
+/* Font classes */
+
+.varela {
+  font-family: "Varela Round", sans-serif;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+/* Dark-mode specific styles */
+
+.dark video,
+.dark img{
+  filter: brightness(0.8);
+}
+
+.dark img.dark\:invert-100{
+  filter: invert(100);
+}
+
+/* Overriding Maz-UI styles */
+
+.maz-elevation {
+  box-shadow: none !important;
+}
+
+.m-input-wrapper {
+  overflow: visible !important;
+  z-index: 3 !important;
+}
+
+.m-select-list{
+  --maz-border-color: #e5e7eb;
+}
+
+.m-select .maz-border-primary {
+  border-color: transparent !important;
+}
+
+.m-table-header {
+  background: transparent !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+.m-table-header .m-input-wrapper {
+  width: calc(100vw - 49.5rem);
+  background: transparent !important;
+  border: none !important;
+  border-bottom: var(--maz-border-color) solid 1px !important;
+}
+
+.dark .m-table-header .m-input-wrapper{
+  border-bottom: #4a5565 solid 1px !important;
+}
+
+.m-table-wrapper {
+  border: none !important;
+}
+
+td.m-table-cell{
+  font-size: 1rem !important;
+}
+
+tr.m-table-row:hover{
+  background-color: var(--color-blue-50) !important;
+}
+
+.dark tr.m-table-row:hover{
+  background-color: #181821 !important;
+}
+
+.m-stepper__content{
+  border-color: var(--maz-color-primary-alpha-20) !important;
+  border-left-width: 2px !important;
+}
+
+.m-stepper__header:not(.--is-current-step) + .m-stepper__content.--no-border {
+  border-color: transparent !important;
+}
+
+.m-stepper__header{
+  border-color: var(--maz-color-primary-alpha-20) !important;
+  border-width: 2px !important;
+  background-color: var(--ui-bg) !important;
+}
+.m-stepper__header:hover{
+  background-color: var(--maz-color-primary-alpha-05) !important;
+}
+
+/* Overriding Nuxt UI styles */
+
+span[role="slider"].ring-inverted {
+  --tw-ring-color: #b3b9c0;
+}
+
+.dark span[role="slider"].ring-inverted {
+  --tw-ring-color: #737373;
+}
+
+.dark {
+ --ui-bg: #000
+}
+
+/*
+  Cursors by GeorgiosNexus (Light cursors) & AKGAMER (Dark cursors)
+  http://www.rw-designer.com/cursor-set/windows-11-light-theme
+  http://www.rw-designer.com/cursor-set/windows-11-dark-theme
+*/
+
+textarea,
+label,
+html {
+  cursor: url(/PersonalSite2025/cursors/light-Point.cur),
+    auto !important;
+}
+
+span[role="slider"],
+.clickable,
+button,
+input,
+a {
+  cursor: url(/PersonalSite2025/cursors/light-Click.cur),
+    auto !important;
+}
+
+button[disabled],
+.stepper button {
+  cursor: url(/PersonalSite2025/cursors/light-Point.cur),
+  auto !important;
+}
+
+.dark textarea,
+.dark label,
+html.dark {
+  cursor: url(/PersonalSite2025/cursors/dark-Point.cur),
+    auto !important;
+}
+
+.dark span[role="slider"],
+.dark .clickable,
+.dark button,
+.dark input,
+.dark a {
+  cursor: url(/PersonalSite2025/cursors/dark-Click.cur),
+    auto !important;
+}
+
+.dark button[disabled],
+.dark .stepper button {
+  cursor: url(/PersonalSite2025/cursors/dark-Point.cur),
+  auto !important;
+}
+
+/* Other */
+
+.cardShadow{
+  box-shadow: #00000007 0 5px 15px, #191c210c 0 15px 35px -5px, #00000006 0 0 0 1px;
+}
+
+.dark .cardShadow{
+  box-shadow: #00000014 0 5px 15px, #191c2133 0 15px 35px -5px, #ffffff12 0 0 0 1px;
+}
+
+.boxLink{
+  text-decoration: underline;
+
+  &:hover {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    filter: brightness(0.5);
+    box-shadow: #00000014 0 5px 15px, #191c2133 0 15px 35px -5px, #ffffff12 0 0 0 1px;
+  }
+}
+
+#contentPanelsContent > *{
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
+}
