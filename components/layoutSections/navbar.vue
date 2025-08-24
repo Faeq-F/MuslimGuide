@@ -112,7 +112,19 @@ function activeBG(page) {
           </div>
           <p class=" text-xs font-medium leading-normal tracking-[0.015em]"
             :class="activeP('/guide')">
-            Guide</p>
+            Guides
+          </p>
+        </a>
+        <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full pb-1 pt-2"
+          :class="activeBG('/dua')" href="/dua">
+          <div class=" flex items-center justify-center"
+            :class="activeP('/dua')">
+            <UIcon name="i-mingcute-pray-line" class="!size-5" />
+          </div>
+          <p class=" text-xs font-medium leading-normal tracking-[0.015em]"
+            :class="activeP('/dua')">
+            Duas
+          </p>
         </a>
         <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full pb-1 pt-2"
           :class="activeBG('/settings')" href="/settings">

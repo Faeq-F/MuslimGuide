@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import "tailwindcss";
 @import "@nuxt/ui";
-@import "./layout.css";
 @import "./maz-ui-variables.css";
 import 'maz-ui/styles'
 
@@ -39,10 +38,6 @@ body{
   * {
     scrollbar-color: gray transparent;
     scrollbar-width: thin;
-  }
-
-  .docsContent:has(iframe){
-    overflow: hidden;
   }
 
 /* Font classes */
@@ -163,7 +158,7 @@ span[role="slider"].ring-inverted {
 textarea,
 label,
 html {
-  cursor: url(/PersonalSite2025/cursors/light-Point.cur),
+  cursor: url(/MuslimGuide/cursors/light-Point.cur),
     auto !important;
 }
 
@@ -172,20 +167,20 @@ span[role="slider"],
 button,
 input,
 a {
-  cursor: url(/PersonalSite2025/cursors/light-Click.cur),
+  cursor: url(/MuslimGuide/cursors/light-Click.cur),
     auto !important;
 }
 
 button[disabled],
 .stepper button {
-  cursor: url(/PersonalSite2025/cursors/light-Point.cur),
+  cursor: url(/MuslimGuide/cursors/light-Point.cur),
   auto !important;
 }
 
 .dark textarea,
 .dark label,
 html.dark {
-  cursor: url(/PersonalSite2025/cursors/dark-Point.cur),
+  cursor: url(/MuslimGuide/cursors/dark-Point.cur),
     auto !important;
 }
 
@@ -194,38 +189,12 @@ html.dark {
 .dark button,
 .dark input,
 .dark a {
-  cursor: url(/PersonalSite2025/cursors/dark-Click.cur),
+  cursor: url(/MuslimGuide/cursors/dark-Click.cur),
     auto !important;
 }
 
 .dark button[disabled],
 .dark .stepper button {
-  cursor: url(/PersonalSite2025/cursors/dark-Point.cur),
+  cursor: url(/MuslimGuide/cursors/dark-Point.cur),
   auto !important;
-}
-
-/* Other */
-
-.cardShadow{
-  box-shadow: #00000007 0 5px 15px, #191c210c 0 15px 35px -5px, #00000006 0 0 0 1px;
-}
-
-.dark .cardShadow{
-  box-shadow: #00000014 0 5px 15px, #191c2133 0 15px 35px -5px, #ffffff12 0 0 0 1px;
-}
-
-.boxLink{
-  text-decoration: underline;
-
-  &:hover {
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    filter: brightness(0.5);
-    box-shadow: #00000014 0 5px 15px, #191c2133 0 15px 35px -5px, #ffffff12 0 0 0 1px;
-  }
-}
-
-#contentPanelsContent > *{
-  scroll-snap-stop: always;
-  scroll-snap-align: start;
 }
