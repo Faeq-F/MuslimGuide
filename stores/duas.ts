@@ -6,37 +6,37 @@ export const useDuasStore = defineStore("duasStore", {
       {
         label: 'Umrah',
         icon: "earth",
-        image: "/media/umrah.jpg",
+        image: "/MuslimGuide/media/umrah.jpg",
         to: '/dua/umrah~duas'
       },
       {
         label: "Travel",
         icon: "earth",
-        image: "/media/travel.jpg",
+        image: "/MuslimGuide/media/travel.jpg",
         to: '/dua/travel~duas'
       },
       {
         label: 'Madinah',
         icon: "earth",
-        image: "/media/madinah.jpg",
+        image: "/MuslimGuide/media/madinah.jpg",
         to: '/dua/madinah~duas'
       },
       {
         label: 'Makkah',
         icon: "earth",
-        image: "/media/makkah.jpg",
+        image: "/MuslimGuide/media/makkah.jpg",
         to: '/dua/makkah~duas'
       },
       {
         label: 'Other',
         icon: "earth",
-        image: "/media/general.jpg",
+        image: "/MuslimGuide/media/general.jpg",
         to: '/dua'
       },
       {
         label: 'Ziyarah',
         icon: "earth",
-        image: "/media/ziyarah.jpg",
+        image: "/MuslimGuide/media/ziyarah.jpg",
         to: '/dua/ziyarah~duas'
       },
     ],
