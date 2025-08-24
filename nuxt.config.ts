@@ -6,15 +6,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   app: {
-    baseURL: "/UmrahGuide/",
+    baseURL: "/MuslimGuide/",
     buildAssetsDir: "assets",
     head: {
       link: [
-        { rel: "icon", type: "image/svg", href: "/UmrahGuide/favicon.png" },
-        { rel: "preconnect", href: "https://fonts.gstatic.com/", crossorigin: "" },
-        { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Serif%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" },
+        { rel: "icon", type: "image/svg", href: "/MuslimGuide/favicon.png" },
       ],
-      title: "Umrah Guide"
+      title: "Muslim Guide"
     },
     pageTransition: { name: 'page', mode: 'out-in' }
   },

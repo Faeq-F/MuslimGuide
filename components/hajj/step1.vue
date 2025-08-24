@@ -1,0 +1,3 @@
+<template>
+  bookings, etc.
+</template>

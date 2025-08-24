@@ -1,3 +1,3 @@
-# Umrah Guide
+# Muslim Guide
 
-Umrah guide app
+Duas and Umrah, Hajj & Madinah Guides
