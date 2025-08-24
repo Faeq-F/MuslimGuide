@@ -6,7 +6,7 @@
 
 <template>
   <div>
-    <a href="/guide/hajj">
+    <nuxt-link to="/guide/hajj">
       <div
         class="flex items-center gap-4 bg-slate-50 dark:bg-[#182634] px-2 min-h-[72px] py-1 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl m-4">
         <div
@@ -24,8 +24,8 @@
           </p>
         </div>
       </div>
-    </a>
-    <a href="/guide/umrah">
+    </nuxt-link>
+    <nuxt-link to="/guide/umrah">
       <div
         class="flex items-center gap-4 bg-slate-50 dark:bg-[#182634] px-2 min-h-[72px] py-1 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl m-4">
         <div
@@ -43,8 +43,8 @@
           </p>
         </div>
       </div>
-    </a>
-    <a href="/guide/madinah">
+    </nuxt-link>
+    <nuxt-link to="/guide/madinah">
       <div
         class="flex items-center gap-4 bg-slate-50 dark:bg-[#182634] px-2 min-h-[72px] py-1 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl m-4">
         <div
@@ -63,6 +63,6 @@
           </p>
         </div>
       </div>
-    </a>
+    </nuxt-link>
   </div>
 </template>

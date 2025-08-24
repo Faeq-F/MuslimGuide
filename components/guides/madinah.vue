@@ -14,7 +14,7 @@
     pilgrims are recommended to visit the Masjid and pray there.
   </div>
 
-  <a href="/guide/masjid-al-nabawi">
+  <nuxt-link to="/guide/masjid-al-nabawi">
     <div
       class="flex items-center gap-4 bg-slate-50 dark:bg-[#182634] px-2 min-h-[72px] py-1 border-2 border-[#e7edf4] dark:border-[#223649]  rounded-2xl m-4">
       <div
@@ -32,7 +32,7 @@
         </p>
       </div>
     </div>
-  </a>
+  </nuxt-link>
 
   <div
     class="p-4 m-4 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
@@ -40,13 +40,15 @@
       class="font-bold  mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
       Visiting Masjid Al-Quba
     </div>
-    Visiting Masjid Quba has great reward in it because the Messenger of Allah ﷺ
+    Visiting Masjid Quba has great reward in it because the Messenger of Allah
+    ﷺ
     said:
     <div
       class="mt-2 text-[#0d141c] dark:text-white text-lg font-normal leading-normal pt-1 px-4 text-center">
       "Whoever purifies himself in his house, then comes to the mosque of Quba
       and
-      prays in it, he will have a reward like the Umrah pilgrimage." (Ibn Majah)
+      prays in it, he will have a reward like the Umrah pilgrimage." (Ibn
+      Majah)
     </div>
   </div>
 

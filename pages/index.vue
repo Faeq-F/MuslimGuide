@@ -13,7 +13,7 @@ const duas = useDuasStore()
       May Allah accept your prayers. Here are some resources to help you.
     </p>
     <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
-      <a :href="cat.to" v-for="(cat, i) in duas.categories" :key="i">
+      <nuxt-link :to="cat.to" v-for="(cat, i) in duas.categories" :key="i">
         <div class=" flex flex-col gap-3 pb-3 ">
           <div
             class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg border-accented border"
@@ -23,7 +23,7 @@ const duas = useDuasStore()
           leading-normal">
             {{ cat.label }} Duas</p>
         </div>
-      </a>
+        </nuxt-link>
     </div>
   </div>
 </template>

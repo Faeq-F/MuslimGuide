@@ -9,7 +9,7 @@ const duas = useDuasStore()
         class="font-bold text-lg mb-2 mt-4 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
         {{ section.name }}
       </p>
-      <a :href="'/dua/' + dua.title.replace(
+      <nuxt-link :to="'/dua/' + dua.title.replace(
         (' ' + dua.title.split(' ').reverse().slice(0, 2).reverse()
           .join(' ')), '').replaceAll(' ', '~') + '?n=' + (j + 1)"
         v-for="(dua, j) in section.duas" :key="j">
@@ -33,7 +33,7 @@ const duas = useDuasStore()
             </p>
           </div>
         </div>
-      </a>
+      </nuxt-link>
     </div>
 
   </div>
