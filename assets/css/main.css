@@ -33,6 +33,14 @@ body{
   background-color: #142550 !important;
 }
 
+ul{
+  list-style: disc;
+}
+
+ol{
+  list-style: decimal;
+}
+
 /* Scroll bar */
 
   * {
@@ -133,6 +141,14 @@ tr.m-table-row:hover{
 }
 .m-stepper__header:hover{
   background-color: var(--maz-color-primary-alpha-05) !important;
+}
+
+.m-card-spotlight .inner{
+  --maz-color-bg: oklch(100% 0.00011 271.152 / 0.795) !important;
+}
+
+.dark .m-card-spotlight .inner{
+  --maz-color-bg: #223649  !important;
 }
 
 /* Overriding Nuxt UI styles */

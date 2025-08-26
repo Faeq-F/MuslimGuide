@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
 const route = useRoute()
+
+import { useGuidesStore } from '~/stores/guides'
+const guides = useGuidesStore()
 </script>
 <template>
   <div
@@ -28,9 +31,19 @@ const route = useRoute()
         Hajj Guide
       </h2>
       <h2
+        class="text-[#0d141c]  dark:text-white text-balance font-bold text-center pt-0.5"
+        v-else-if="route.path.includes('/guide/hajj/step')">
+        {{ guides.hajj[route.path.match(/\d+$/)![0]].name }}
+      </h2>
+      <h2
         class="text-[#0d141c]  dark:text-white text-lg font-bold text-center pt-0.5"
         v-else-if="route.path == '/guide/umrah'">
         Umrah Guide
+      </h2>
+      <h2
+        class="text-[#0d141c]  dark:text-white text-balance font-bold text-center pt-0.5"
+        v-else-if="route.path.includes('/guide/umrah/step')">
+        {{ guides.umrah[route.path.match(/\d+$/)![0]].name }}
       </h2>
       <h2
         class="text-[#0d141c]  dark:text-white text-lg font-bold text-center pt-0.5"

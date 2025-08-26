@@ -41,21 +41,7 @@ export const useDuasStore = defineStore("duasStore", {
       },
     ],
     duaList:
-      // [
-      //   {
-      //     name: "Du'a when leaving home",
-      //     arabic: "",
-      //     phonetic: "Bismillahi Tawakkaltu 'Alallah, walaa hawla walaa Quwwata illa billah.",
-      //     translation: "I commence my journey in the name of Allah, having put my reliance on Allah, there is no might and no power but in Allah.",
-      //     category: 'Traveling',
-      //   },
-      //   {
-      //     name: "Du'a for protection",
-      //     arabic: "",
-      //     phonetic: "Allahumma inna a'udhu bika minal-hammi wal-hazan, wal-'ajzi wal-kasal, wal-bukhli wal-jubn, wa dala'id-dain, wa ghalabatir-rijal.",
-      //     translation: "O Allah, I seek refuge in You from grief, sadness, laziness, cowardice, and being overwhelmed by debt or men.",
-      //     category: 'Traveling',
-      //   },
+      //THESE DONT HAVE REFERENCE & SORT
       //   {
       //     name: "Du'a for traveling",
       //     arabic: "",
@@ -84,14 +70,44 @@ export const useDuasStore = defineStore("duasStore", {
       //     translation: "O Allah, this is Your sanctuary and security, so make me unlawful to the hellfire, make me safe from Your punishment on the day You resurrect Your servants, and make me one of Your friends and one of the people who obey You.",
       //     category: 'Umrah',
       //   },
-      //   {
-      //     name: "Du'a for forgiveness",
-      //     arabic: "",
-      //     phonetic: "Astaghfirullaha wa atubu ilayh.",
-      //     translation: "I seek forgiveness from Allah and turn to Him in repentance.",
+      //
+      //       Entering Masjid al- Haram
+      // Bismil- lah, wassalatu wassalamu aala rasoolil - lah,
+      //   allahumma iftah lee abwaba rahmatik.
+      // In the name of Allah, blessings and peace be upon the
+      // Prophet of Allah; O Allah, forgive my sins and open for
+      // me the gates of Your mercy
       //     category: 'Umrah',
-      //   },
-      // ],
+      //
+      //Seeing Kabah for the first time
+      //       Allahumma zid hadha l- bayta tashrifan wa taʿziman wa takriman wa
+      // mahabah, wa zid man sharrafahu wa karramahu mimman hajjahu wa
+      // tamarahu tashrifan wa ta ziman wa birra.
+      // O Allah, increase this House in honour and ennoblement, reverence and
+      // awe, and increase the one who honours and ennobles it, of those who
+      // travel to it for Hajj and Umrah, in honour, reverence and piety.
+      //     category: 'Umrah',
+      //
+      //Du'a in the Hijr
+      //       Ya rabbi ataytuka min shiqqatin ba‘idatin
+      // mu’amillan ma’rufaka.
+      // O Lord, I have come to You from afar, hoping
+      // for Your kindness
+      //     category: 'Umrah',
+      //
+      // Tawaf intention
+      //       Allahumma inni uridu l- tawwafa baytika l- harami fa
+      // yassirhu li wa taqabbalhu minni.
+
+      // O Allah, I intend to perform Tawaf of the Sacred Mosque,
+      //   so accept it from me and make it easy for me
+      //     category: 'Umrah',
+      //
+      // Du’a for starting Tawaf
+      //       Bismillahi Allahu akbar wa lillahil hamd.
+      // I begin in the name of Allah, Allah is the Greatest,
+      //     and all Praise be to Allah.
+      //     category: 'Umrah',
       [
         {
           "name": "After finishing a meal",
@@ -695,6 +711,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "For forgiveness",
+          categories: ['Umrah'],
           "duas": [
             {
               "title": "For forgiveness - 1",
@@ -1028,6 +1045,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "For protection and help from Allah",
+          "categories": ['Traveling'],
           "duas": [
             {
               "title": "For protection and help from Allah - 1",
@@ -2187,6 +2205,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "Talbiyah",
+          categories: ['Umrah'],
           "duas": [
             {
               "title": "Talbiyah - 1",
@@ -2588,6 +2607,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "When Leaving Home",
+          "categories": ['Traveling'],
           "duas": [
             {
               "title": "When Leaving Home - 1",

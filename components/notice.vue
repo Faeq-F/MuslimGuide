@@ -25,15 +25,20 @@ const outlineColor = computed(() => {
 
 </script>
 <template>
-  <MazCardSpotlight class="m-2" :color="outlineColor">
+  <MazCardSpotlight class="mx-4 my-2 " :color="outlineColor">
     <div class="flex items-center">
       <UIcon :name="icon" class="!size-5 min-w-5"
         :style="`color: ${iconColor};`" />
-      <USeparator orientation="vertical" class="h-7 mx-3"
-        :ui="{ border: 'dark:border-gray-600 h-full' }" />
-      <div class="w-full">
-        <slot />
+      <USeparator orientation="vertical"
+        class="h-7 mx-3 flex items-center justify-center"
+        :ui="{ border: 'dark:border-gray-600 h-5' }" />
+      <div class="font-bold">
+        <slot name="header" />
       </div>
+    </div>
+    <USeparator class="w-full my-2 flex items-center justify-center" />
+    <div class="w-full">
+      <slot />
     </div>
   </MazCardSpotlight>
 </template>
