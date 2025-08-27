@@ -55,12 +55,7 @@ watch(userName, (newName) => {
 
 <template>
   <div class="p-4">
-    <div class="text-sm text-balance text-center">
-      You may need to refresh the app for changes to take effect
-    </div>
-    <USeparator class="w-32 mx-auto mt-3 mb-4 "
-      :ui="{ border: 'dark:border-[#223649] border-[#e7edf4]' }" />
-    <div style="height: calc(100% - 20vh);">
+    <div class="h-[60vh]">
       <div class="ml-4 flex items-center">
         <UIcon name="i-lucide-user" class="!size-5" />
         <div class="pl-2">
