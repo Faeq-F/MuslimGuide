@@ -1,76 +1,8 @@
 <script setup lang="ts">
-import type { NavigationMenuItem } from '@nuxt/ui'
-import { onMounted, ref, watch } from 'vue';
+
 import { useRoute } from 'vue-router';
 
 const route = useRoute()
-
-
-
-// //temp
-// const pages = [
-//   {
-//     title: 'About Me',
-//     description: 'A brief introduction about myself',
-//     icon: 'i-lucide-user',
-//     category: 'About Me',
-//     url: '/about'
-//   },
-//   {
-//     title: 'Experience',
-//     description: 'My professional journey and experiences',
-//     icon: 'i-lucide-briefcase',
-//     category: 'About Me',
-//     url: '/experience'
-//   },
-//   {
-//     title: 'Projects',
-//     description: 'Showcasing my projects and contributions',
-//     icon: 'i-lucide-folder',
-//     category: 'About Me',
-//     url: '/about'
-//   },
-//   {
-//     title: 'Skills',
-//     description: 'My technical skills and proficiencies',
-//     icon: 'i-lucide-code',
-//     category: 'About Me',
-//     url: '/about'
-//   },
-//   {
-//     title: 'Contact',
-//     description: 'How to get in touch with me',
-//     icon: 'i-lucide-mail',
-//     category: 'About Me',
-//     url: '/about'
-//   },
-//   {
-//     title: 'Degree',
-//     description: 'My academic qualifications',
-//     icon: 'i-lucide-mail',
-//     category: 'About Me',
-//     url: '/about'
-//   }
-// ]
-
-// import Fuse from 'fuse.js'
-// const searchVal = ref('')
-// const searchedPages = ref(pages)
-// const fuse = new Fuse(pages, {
-//   keys: ['description', 'title', 'category'],
-// });
-
-// watch(searchVal, (newSearch, _oldSearch) => {
-//   if (newSearch === '') {
-//     searchedPages.value = pages;
-//   } else {
-//     searchedPages.value = fuse.search(newSearch).map((result) => result.item);
-//   }
-// })
-
-// onMounted(() => {
-//   console.log()
-// })
 
 function activeP(page) {
   if (route.path == page) {

@@ -66,13 +66,21 @@ const guides = useGuidesStore()
         Dua
       </h2>
       <h2
+        class="text-[#0d141c]  dark:text-white text-lg font-bold text-center pt-0.5"
+        v-else-if="route.path == '/search'">
+        Search
+      </h2>
+      <h2
         class="text-[#0d141c] dark:text-white  text-lg font-bold text-center pt-0.5"
         v-else>
         Muslim Guide
       </h2>
     </div>
-    <div class="px-4 flex">
-      <UIcon name="i-lucide-search" class="!size-5" />
+    <div class="px-4 flex" v-if="route.path != '/search'">
+      <nuxt-link to="/search">
+        <UIcon name="i-lucide-search" class="!size-5" />
+      </nuxt-link>
     </div>
+    <div v-else class="pl-12 flex"></div>
   </div>
 </template>

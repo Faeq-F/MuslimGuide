@@ -157,7 +157,7 @@
           Surah Al-Fatiha
         </div>
         <p
-          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 text-center">
+          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4">
           <span class="text-sm font-bold">1.</span> بِسْمِ اللَّهِ الرَّحْمَٰنِ
           الرَّحِيمِ<br />
           <span class="text-sm font-bold">2.</span> الْحَمْدُ لِلَّهِ رَبِّ
@@ -180,7 +180,7 @@
           transliteration
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
           <span class="text-sm font-bold">1. </span>Bismillaahir Rahmaanir
           Raheem<br />
           <span class="text-sm font-bold">2. </span>Alhamdu lillaahi Rabbil
@@ -200,7 +200,7 @@
           translation
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
           <span class="text-sm font-bold">1. </span>In the name of Allah, Most
           Gracious, Most Merciful<br />
           <span class="text-sm font-bold">2. </span>Praise be to Allah, the
@@ -225,7 +225,7 @@
           Surah Al-Kafiroon
         </div>
         <p
-          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 text-center">
+          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 ">
           <span class="text-sm font-bold">1.</span>
           بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
           <br /><span class="text-sm font-bold">2.</span>
@@ -246,7 +246,7 @@
           transliteration
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
           <span class="text-sm font-bold">1. </span>Bismillaahir Rahmaanir
           Raheem<br />
           <span class="text-sm font-bold">2. </span>Qul yaaa-ayyuhal
@@ -266,7 +266,7 @@
           translation
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
           <span class="text-sm font-bold">1. </span>In the name of Allah, Most
           Gracious, Most Merciful.<br />
           <span class="text-sm font-bold">2. </span>Say : O ye that reject
@@ -291,76 +291,59 @@
           Surah Al-Ikhlas
         </div>
         <p
-          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 text-center">
+          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 ">
           <span class="text-sm font-bold">1.</span>
-
+          بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
           <br /><span class="text-sm font-bold">2.</span>
-
+          قُلْ هُوَ اللَّهُ أَحَدٌ
           <br /><span class="text-sm font-bold">3.</span>
-
+          اللَّهُ الصَّمَدُ
           <br /><span class="text-sm font-bold">4.</span>
-
+          لَمْ يَلِدْ وَلَمْ يُولَدْ
           <br /><span class="text-sm font-bold">5.</span>
-
-          <br /><span class="text-sm font-bold">6.</span>
-
-          <br /><span class="text-sm font-bold">7.</span>
-
+          وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ
         </p>
         <p
           class="mt-4 mb-2 text-sm text-center text-slate-400 font-light outline outline-[#e7edf4] dark:outline-[#223649]">
           transliteration
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
           <span class="text-sm font-bold">1. </span>
-
+          Bismillaahir Rahmaanir Raheem
           <br />
           <span class="text-sm font-bold">2. </span>
-
+          Qul huwal laahu ahad
           <br />
           <span class="text-sm font-bold">3. </span>
-
+          Allah hus-samad
           <br />
           <span class="text-sm font-bold">4. </span>
-
+          Lam yalid wa lam yoolad
           <br />
           <span class="text-sm font-bold">5. </span>
-
-          <br />
-          <span class="text-sm font-bold">6. </span>
-
-          <br />
-          <span class="text-sm font-bold">7. </span>
-
+          Wa lam yakul-lahoo kufuwan ahad
         </p>
         <p
           class="mt-4 mb-2 text-sm text-center text-slate-400 font-light outline outline-[#e7edf4] dark:outline-[#223649]">
           translation
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
           <span class="text-sm font-bold">1. </span>
-
+          In the name of Allah, Most Gracious, Most Merciful.
           <br />
           <span class="text-sm font-bold">2. </span>
-
+          Say: He is Allah, the One and Only;
           <br />
           <span class="text-sm font-bold">3. </span>
-
+          Allah, the Eternal, Absolute;
           <br />
           <span class="text-sm font-bold">4. </span>
-
+          He begetteth not, nor is He begotten;
           <br />
           <span class="text-sm font-bold">5. </span>
-
-          <br />
-          <span class="text-sm font-bold">6. </span>
-
-          <br />
-          <span class="text-sm font-bold">7. </span>
-
-          <br />
+          And there is none like unto Him.
         </p>
       </div>
     </div>

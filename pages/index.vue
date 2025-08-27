@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import { useDuasStore } from '~/stores/duas'
 const duas = useDuasStore()
+
+import { useSettingsStore } from '~/stores/localStorage'
+const settings = useSettingsStore()
 </script>
 
 <template>
   <div>
     <h2
       class="text-[#0d141c] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
-      Welcome,</h2>
+      Welcome, {{ settings.settings.name }}</h2>
     <p
       class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
       May Allah accept your prayers. Here are some resources to help you.
@@ -23,7 +26,7 @@ const duas = useDuasStore()
           leading-normal">
             {{ cat.label }} Duas</p>
         </div>
-        </nuxt-link>
+      </nuxt-link>
     </div>
   </div>
 </template>

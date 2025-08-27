@@ -5,110 +5,422 @@ export const useDuasStore = defineStore("duasStore", {
     categories: [
       {
         label: 'Umrah',
-        icon: "earth",
         image: "/MuslimGuide/media/umrah.jpg",
+        icon: 'i-hugeicons-kaaba-02',
         to: '/dua/umrah~duas'
       },
       {
         label: "Travel",
-        icon: "earth",
+        icon: 'i-lucide-plane',
         image: "/MuslimGuide/media/travel.jpg",
         to: '/dua/travel~duas'
       },
       {
         label: 'Madinah',
-        icon: "earth",
         image: "/MuslimGuide/media/madinah.jpg",
+        icon: 'i-hugeicons-mosque-02',
         to: '/dua/madinah~duas'
       },
       {
-        label: 'Makkah',
-        icon: "earth",
-        image: "/MuslimGuide/media/makkah.jpg",
-        to: '/dua/makkah~duas'
-      },
-      {
         label: 'Other',
-        icon: "earth",
+        icon: 'i-mingcute-pray-line',
         image: "/MuslimGuide/media/general.jpg",
         to: '/dua'
       },
       {
         label: 'Ziyarah',
-        icon: "earth",
+        icon: 'i-game-icons-grave-flowers',
         image: "/MuslimGuide/media/ziyarah.jpg",
         to: '/dua/ziyarah~duas'
       },
     ],
     duaList:
-      //THESE DONT HAVE REFERENCE & SORT
-      //   {
-      //     name: "Du'a for traveling",
-      //     arabic: "",
-      //     phonetic: "Subhanallazee Sakh-khara lanaa haaza wa maa kunnaa lahu muqrineen.Wa innaa ilaa Rabbina lamunqaliboon.",
-      //     translation: "Exalted is He who has subjected this to us, and we could not have(otherwise) subdued it. And indeed we shall (surely) return to our Lord.",
-      //     category: 'Traveling',
-      //   },
-      //   {
-      //     name: "Du'a when ascending",
-      //     arabic: "",
-      //     phonetic: "Allahu Akbar.",
-      //     translation: "Allah is the Greatest.",
-      //     category: 'Traveling',
-      //   },
-      //   {
-      //     name: "Du'a before entering Ihram",
-      //     arabic: "",
-      //     phonetic: "Allahumma innee ureedul 'umrata fayasserhaa lee wa taqabbalhaa minnee.",
-      //     translation: "O Allah, Indeed I intend to perform the Umrah, so please make it easy for me and accept it from me.",
-      //     category: 'Umrah',
-      //   },
-      //   {
-      //     name: "Du'a before entering Makkah",
-      //     arabic: "",
-      //     phonetic: "Allāhumma hadha jaramuka wa amnuka fa ḥarrimni'ala n-nar, wa aminni min 'adhabika yawma tab'athu 'ibadak, wa j'alni min awliya'ika wa ahli ta'atik.",
-      //     translation: "O Allah, this is Your sanctuary and security, so make me unlawful to the hellfire, make me safe from Your punishment on the day You resurrect Your servants, and make me one of Your friends and one of the people who obey You.",
-      //     category: 'Umrah',
-      //   },
-      //
-      //       Entering Masjid al- Haram
-      // Bismil- lah, wassalatu wassalamu aala rasoolil - lah,
-      //   allahumma iftah lee abwaba rahmatik.
-      // In the name of Allah, blessings and peace be upon the
-      // Prophet of Allah; O Allah, forgive my sins and open for
-      // me the gates of Your mercy
-      //     category: 'Umrah',
-      //
-      //Seeing Kabah for the first time
-      //       Allahumma zid hadha l- bayta tashrifan wa taʿziman wa takriman wa
-      // mahabah, wa zid man sharrafahu wa karramahu mimman hajjahu wa
-      // tamarahu tashrifan wa ta ziman wa birra.
-      // O Allah, increase this House in honour and ennoblement, reverence and
-      // awe, and increase the one who honours and ennobles it, of those who
-      // travel to it for Hajj and Umrah, in honour, reverence and piety.
-      //     category: 'Umrah',
-      //
-      //Du'a in the Hijr
-      //       Ya rabbi ataytuka min shiqqatin ba‘idatin
-      // mu’amillan ma’rufaka.
-      // O Lord, I have come to You from afar, hoping
-      // for Your kindness
-      //     category: 'Umrah',
-      //
-      // Tawaf intention
-      //       Allahumma inni uridu l- tawwafa baytika l- harami fa
-      // yassirhu li wa taqabbalhu minni.
-
-      // O Allah, I intend to perform Tawaf of the Sacred Mosque,
-      //   so accept it from me and make it easy for me
-      //     category: 'Umrah',
-      //
-      // Du’a for starting Tawaf
-      //       Bismillahi Allahu akbar wa lillahil hamd.
-      // I begin in the name of Allah, Allah is the Greatest,
-      //     and all Praise be to Allah.
-      //     category: 'Umrah',
       [
+        // {
+        //   name: "",
+        //   categories: [],
+        //   "duas": [
+        //     {
+        //       "title": "",
+        //       "arabic": "",
+        //       "transliteration": "",
+        //       "translation": "",
+        //       "reference": ""
+        //     }
+        //   ]
+        // },
+        {
+          name: "Rabbanaa Duas",
+          categories: [],
+          "duas": [
+            {
+              "title": "Rabbanaa Duas - 1",
+              "arabic": "رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
+              "transliteration": "Rabbanaa zalamnaaa anfusanaa wa illam taghfir lanaa wa tarhamnaa lanakoonanna minal khaasireen",
+              "translation": "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.",
+              "reference": ""
+            },
+            {
+              "title": "Rabbanaa Duas - 2",
+              "arabic": "رَبَّنَا لَغَفُوْرٌ شَكُوْرٌ",
+              "transliteration": "Rabbana la Ghafurun shakur",
+              "translation": "Our Lord is Forgiving and Appreciative",
+              "reference": ""
+            },
+            {
+              "title": "Rabbanaa Duas - 3",
+              "arabic": "رَبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ الْمَصِيْرُ",
+              "transliteration": "Rabbanaa ‘alaika tawakkalnaa wa ilaika anabnaa wa ilaikal maseer",
+              "translation": "Our Lord, upon You we have relied, and to You we have returned, and to You is the destination.",
+              "reference": ""
+            },
+            {
+              "title": "Rabbanaa Duas - 4",
+              "arabic": "رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنتَ السَّمِيْعُ الْعَلِيْمُ",
+              "transliteration": "Rabbana taqabbal minnaa innaka Antas Samee’ul Aleem",
+              "translation": "Our Lord, accept [this] from us. Indeed You are the Hearing, the Knowing.",
+              "reference": ""
+            },
+            {
+              "title": "Rabbanaa Duas - 5",
+              "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+              "transliteration": "Rabbana atina fid dunyaa hasanatanw wa fil aakhirati hasanatanw wa qinaa azaaban Naar",
+              "translation": "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.",
+              "reference": ""
+            },
+            {
+              "title": "Rabbanaa Duas - 6",
+              "arabic": "رَبَّنَا لَا تَجْعَلْنَا مَعَ الْقَوْمِ الظَّالِمِيْنَ",
+              "transliteration": "Rabbanaa laa taj’alnaa ma’al qawmiz zaalimeen",
+              "translation": "Our Lord, do not place us with the wrongdoing people.",
+              "reference": ""
+            },
+          ]
+        },
+        {
+          name: "Du'a for first Approaching Safaa",
+          categories: ['Umrah'],
+          "duas": [
+            {
+              "title": "First Approaching Safaa - 1",
+              "arabic": "إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَآئِرِ اللّٰهِ فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَنْ يَطَّوَّفَ بِهِمَا وَمَنْ تَطَوَّعَ خَيْرًا فَإِنَّ اللّٰهَ شَاكِرٌ عَلِيمٌ",
+              "transliteration": "Innas-safaa wal marwata min sha'aa'irillaah, faman hajjal baita 'aw i'tamara falaa janaaha 'alaihi an yattawwafa bihimaa wa man tatawwa'a khiran fa'innallaaha shaakirun 'aleem",
+              "translation": "Verily, As-Safaa and Al-Marwah are from the symbols of Allaah. So it is not a sin on him who performs Hajj or Umrah of the house (ka'ba) to perform the going (tawaaf) between them. And whoever does good voluntarily, then verily, Allah is the All-Recognizer, All-Knower.",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Maqaam-E-Ibraheem",
+          categories: ['Umrah'],
+          "duas": [
+            {
+              "title": "Maqaam-E-Ibraheem - 1",
+              "arabic": "وَاتَّخِذُوا مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى",
+              "transliteration": "Wattakhidhoo min-maqaami ibraaheema musalla",
+              "translation": "And take you (people) the Maqaam (place) of Ibraheem as a place of Prayer",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du'a At Journey Break",
+          categories: ["Travel"],
+          "duas": [
+            {
+              "title": "At Journey Break - 1",
+              "arabic": "أَعُوذُبِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+              "transliteration": "A’uthoo bi-kalimaa tillaah-hitammaa ti-min sharri maa khalaq",
+              "translation": "I take refuge in Allah’s perfect words from the evil that He has created.",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du'a for Seeking the Prophet (SAW)'s Intercession",
+          categories: ["Madinah"],
+          "duas": [
+            {
+              "title": "Seeking the Prophet (SAW)'s Intercession - 1",
+              "arabic": "يَا رَسُولَ اللهِ، أَسْأَلُكَ الشَّفَاعَةَ وَأَتَوَسَّلُ بِكَ إِلَى اللهِ أَنْ أَمُوتَ مُسْلِمًا عَلَى مِلَّتِكَ وَسُنَّتِكَ",
+              "transliteration": "Yā rasūla llāh as’aluka ash-shafā’ata wa atawassalu bika ila llāhi ‘an ‘amūta Musliman ‘ala millatika wa sunnatik.",
+              "translation": "O Rasulullah! I request your intercession, and I ask Allah, through you, to enable me to die on your religion and your Sunnah.",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du'a to give Salaam on Behalf of Others",
+          categories: ["Madinah"],
+          "duas": [
+            {
+              "title": "Salaam on Behalf of Others - 1",
+              "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللهِ مِنْ فُلَانٍ بْنِ فُلَانٍ",
+              "transliteration": "As-salāmu ‘alayka yā rasūla llāh min fulān ibni (binti) fulān.",
+              "translation": "Peace be upon you O Messenger of Allah from ……, son (daughter) of …….",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du'a for greeting Abu Bakr al-Siddiq (RA)",
+          categories: ["Madinah"],
+          "duas": [
+            {
+              "title": "Greeting Abu Bakr al-Siddiq (RA) - 1",
+              "arabic": "السَّلَامُ عَلَيْكَ يَا أَبُو بَكْرٍ",
+              "transliteration": "As-salāmu ‘alayka yā Abu Bakr.",
+              "translation": "Peace be upon you, O Abu Bakr.",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du'a for greeting Umar Ibn Al-Khattab",
+          categories: ["Madinah"],
+          "duas": [
+            {
+              "title": "Greeting Umar Ibn Al-Khattab - 1",
+              "arabic": "السَّلَامُ عَلَيْكَ يَا عُمَرُ",
+              "transliteration": "As-salāmu ‘alayka yā ‘Umar.",
+              "translation": "Peace be upon you, O Umar.",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du'a for when entering Madinah",
+          duas: [
+            {
+              'title': "Entering Madinah - 1",
+              arabic: "اللَّهُمَّ هَذَا حَرَمُ نَبِيِّكَ فَاجْعَلْهُ وِقَايَةً لِي مِنَ النَّارِ، وَأَمَانًا مِنَ الْعَذَابِ وَسُوءِ الْحِسَابِ",
+              transliteration: "Allāhumma hādhā ḥaramu nabiyyika faj‘alhu wiqāyatan lī mina n-nāri wa amānan mina l-‘adhābi wa sū’a l-ḥisāb.",
+              translation: "O Allah, this is the Sacred Precinct of Your Prophet, so make it a protection for me from the Fire and a security from punishment and a bad reckoning.",
+              reference: ''
+            }
+          ],
+          categories: ["Madinah"],
+        },
+        {
+          name: "Du'a for when entering Madinah Masjid",
+          duas: [
+            {
+              'title': "Entering Madinah Masjid - 1",
+              arabic: "بِسْمِ اللَّهِ، اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، اللَّهُمَّ اغْفِرْ لِي وَافْتَحْ لِي أَبْوَابَ رَحْمَتِك",
+              transliteration: "Bismi-llāh, Allāhumma ṣalli ʿalā Muḥammad. Allāhumma-ghfir lī wa-ftaḥ lī abwāba raḥmatik.",
+              translation: "In the name of Allah, send blessings upon Muhammad. O Allah, open for me the doors of Your Bounty.",
+              reference: ''
+            }
+          ],
+          categories: ["Madinah"],
+        },
+        {
+          name: "Du'a for traveling",
+          categories: ['Travel'],
+          "duas": [{
+            "title": "Du'a for traveling - 1",
+            arabic: "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ، وَإِنَّا إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ",
+            transliteration: "Subhanallazee Sakh-khara lanaa haaza wa maa kunnaa lahu muqrineen. Wa innaa ilaa Rabbina lamunqaliboon.",
+            translation: "Exalted is He who has subjected this to us, and we could not have (otherwise) subdued it. And indeed we shall (surely) return to our Lord.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Du'a when ascending",
+          categories: ['Travel'],
+          "duas": [{
+            "title": "Du'a when ascending - 1",
+            arabic: "اللّٰهُ أَكْبَرُ",
+            transliteration: "Allahu Akbar.",
+            translation: "Allah is the Greatest.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Du'a before entering Ihram",
+          categories: ['Umrah'],
+          "duas": [{
+            "title": "Du'a before entering Ihram - 1",
+            arabic: "اللَّهُمَّ إِنِّي أُرِيدُ الْعُمْرَةَ فَيَسِّرْهَا لِي وَتَقَبَّلْهَا مِنِّي",
+            transliteration: "Allahumma innee ureedul 'umrata fayasserhaa lee wa taqabbalhaa minnee.",
+            translation: "O Allah, Indeed I intend to perform the Umrah, so please make it easy for me and accept it from me.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Du'a before entering Makkah",
+          categories: ['Umrah'],
+          "duas": [{
+            "title": "Du'a before entering Makkah - 1",
+            arabic: "اللَّهُمَّ هَذَا حَرَمُكَ وَأَمْنُكَ فَحَرِّمْنِي عَلَى النَّارِ، وَآمِنِّي مِنْ عَذَابِكَ يَوْمَ تَبْعَثُ عِبَادَكَ، وَاجْعَلْنِي مِنْ أَوْلِيَائِكَ وَأَهْلِ طَاعَتِكَ",
+            transliteration: "Allāhumma hadha jaramuka wa amnuka fa ḥarrimni'ala n-nar, wa aminni min 'adhabika yawma tab'athu 'ibadak, wa j'alni min awliya'ika wa ahli ta'atik.",
+            translation: "O Allah, this is Your sanctuary and security, so make me unlawful to the hellfire, make me safe from Your punishment on the day You resurrect Your servants, and make me one of Your friends and one of the people who obey You.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Du'a for entering Masjid al-Haram",
+          categories: ['Umrah'],
+          "duas": [{
+            "title": "Du'a for entering Masjid al-Haram - 1",
+            arabic: "بِسْمِ اللَّهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+            transliteration: "Bismillah, wassalatu wassalamu ‘ala rasoolillah, Allahumma iftah lee abwaba rahmatik.",
+            translation: "In the name of Allah, blessings and peace be upon the Prophet of Allah; O Allah, forgive my sins and open for me the gates of Your mercy.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Du'a when seeing the Ka'bah for the first time",
+          categories: ['Umrah'],
+          "duas": [{
+            "title": "Du'a when seeing the Ka'bah for the first time - 1",
+            arabic: "اللّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوِ اعْتَمَرَهُ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَبِرًّا",
+            transliteration: "Allahumma zid hadha l-bayta tashrifan wa taʿziman wa takriman wa mahabah, wa zid man sharrafahu wa karramahu mimman hajjahu wa tamarahu tashrifan wa ta'ziman wa birra.",
+            translation: "O Allah, increase this House in honour and ennoblement, reverence and awe, and increase the one who honours and ennobles it, of those who travel to it for Hajj and Umrah, in honour, reverence and piety.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Du'a in the Hijr",
+          categories: ['Umrah'],
+          "duas": [{
+            "title": "Du'a in the Hijr - 1",
+            arabic: "يَا رَبِّ، أَتَيْتُكَ مِنْ شِقَّةٍ بَعِيدَةٍ مُؤَمِّلًا مَعْرُوفَكَ",
+            transliteration: "Ya rabbi ataytuka min shiqqatin ba‘idatin mu’amillan ma’rufaka.",
+            translation: "O Lord, I have come to You from afar, hoping for Your kindness.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Tawaf intention",
+          categories: ['Umrah'],
+          "duas": [{
+            "title": "Tawaf intention - 1",
+            arabic: "اللَّهُمَّ إِنِّي أُرِيدُ الطَّوَافَ بَيْتِكَ الْحَرَامِ فَيَسِّرْهُ لِي وَتَقَبَّلْهُ مِنِّي",
+            transliteration: "Allahumma inni uridu l-tawwafa baytika l-harami fa yassirhu li wa taqabbalhu minni.",
+            translation: "O Allah, I intend to perform Tawaf of the Sacred Mosque, so accept it from me and make it easy for me.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Du’a for starting Tawaf",
+          categories: ['Umrah'],
+          "duas": [{
+            "title": "Du’a for starting Tawaf - 1",
+            arabic: "بِسْمِ اللَّهِ، اللَّهُ أَكْبَرُ، وَلِلَّهِ الْحَمْدُ",
+            transliteration: "Bismillahi Allahu akbar wa lillahil hamd.",
+            translation: "I begin in the name of Allah, Allah is the Greatest, and all Praise be to Allah.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Du’a between Rukn Yamani and Hajar Aswad",
+          categories: ['Umrah'],
+          "duas": [{
+            "title": "Du’a between Rukn Yamani and Hajar Aswad - 1",
+            arabic: "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً، وَفِي الْآخِرَةِ حَسَنَةً، وَقِنَا عَذَابَ النَّارِ",
+            transliteration: "Rabbana aatina fid-dunya hasanatan wa-fil akhirati hasanatan wa-qina ‘adhaab an-nar.",
+            translation: "Our Lord, grant us the best of this life and the best of the hereafter, and protect us from the punishment of the Fire.",
+            reference: ''
+          }],
+        },
+        {
+          name: "Du’a to recite frequently",
+          "duas": [
+            {
+              "title": "Du’a to recite frequently - 1",
+              "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ",
+              "transliteration": "Allahumma inni as’aluka al-jannah",
+              "translation": "O Allah, I ask You for Paradise.",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du'a for shopping",
+          "duas": [
+            {
+              "title": "Du'a for shopping - 1",
+              "arabic": "لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيكَ لَهُ",
+              "transliteration": "La ilaha illal-lahu wahdahu la sharika lah",
+              "translation": "There is no god but Allah alone, with no partner. (Al-Tirmidhi)",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du’a for leaving Haram",
+          categories: ['Umrah'],
+          "duas": [
+            {
+              "title": "Du’a for leaving Haram - 1",
+              "arabic": "بِسْمِ اللهِ وَالصَّلاَةُ وَالسَّلاَمُ عَلَى رَسُولِ اللهِ اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+              "transliteration": "Bismilahi wa s-salatu wa s-salamu ‘ala rasuli llah. Allahumma inni as’aluka min fadlik.",
+              "translation": "In the name of Allah, and peace and blessings be upon the Messenger of Allah. O Allah, I ask of You from Your bounty.",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du’a for drinking Zam Zam",
+          categories: ['Umrah'],
+          "duas": [
+            {
+              "title": "Du’a for drinking Zam Zam - 1",
+              "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا وَاسِعًا وَشِفَاءً مِنْ كُلِّ دَاءٍ",
+              "transliteration": "Allahumma inna as’aluka ‘ilman nafi‘an wa rizqan wasi‘an wa shifa’an min kulli da’.",
+              "translation": "O Allah, I ask You for beneficial knowledge, abundant provision, and a cure from every disease.",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du’a to recite at Safa",
+          categories: ['Umrah'],
+          "duas": [
+            {
+              "title": "Du’a to recite at Safa - 1",
+              "arabic": "اَللّٰهُ أَكْبَرُ اَللّٰهُ أَكْبَرُ اَللّٰهُ أَكْبَرُ",
+              "transliteration": "Allahu akbar, Allahu akbar, Allahu akbar",
+              "translation": "Allah is the greatest; Allah is the greatest; Allah is the greatest",
+              "reference": ""
+            },
+            {
+              "title": "Du’a to recite at Safa - 2",
+              "arabic": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ، وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ‏",
+              "transliteration": "La ilaha illallah wahdahu la sharīka lah(u), lahu l-mulku wa lahu l-hamdu yuhyi wa yumit(u), wa huwa 'ala kulli shay' in qadir.",
+              "translation": "There is no deity except Allah, alone without a partner.To Him belongs the Dominion, and to Him belongs all praise.He gives life and death and He has power over everything.",
+              "reference": ""
+            },
+            {
+              "title": "Du’a to recite at Safa - 3",
+              "arabic": "لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ أَنْجَزَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ وَهَزَمَ الأَحْزَابَ وَحْدَهُ",
+              "transliteration": "La ilaha illallahu wahdah(u), anjaza wa'dahu wa nasara 'abdahu wa hazama l-ahzaba wahdah",
+              "translation": "There is no deity except Allah alone.He fulfilled His promise, supported His slave and defeated the confederates alone.",
+              "reference": ""
+            }
+          ]
+        },
+        {
+          name: "Du’a for Sa’i",
+          categories: ['Umrah'],
+          "duas": [
+            {
+              "title": "Du’a for Sa’i - 1",
+              "arabic": " إِنَّ ٱلصَّفَا وَٱلۡمَرۡوَةَ مِن شَعَآئِرِ ٱللَّهِۖ",
+              "transliteration": "Inna s-safa wa l-marwata min sha'a'iri llah(i)",
+              "translation": "Indeed, Safa and Marwa are from the Signs of Allah.",
+              "reference": "Surah al-Baqarah, 2: 158"
+            },
+            {
+              "title": "Du’a for Sa’i - 2",
+              "arabic": "أَبْدَأُ بِمَا بَدَأَ اللهُ بِهِ",
+              "transliteration": "Abda'u bima bad'allahu bihi",
+              "translation": "I begin with that which Allah has begun with",
+              "reference": ""
+            }
+          ]
+        },
         {
           "name": "After finishing a meal",
           "duas": [
@@ -314,10 +626,10 @@ export const useDuasStore = defineStore("duasStore", {
           ]
         },
         {
-          "name": "At the end of a Gathering/Majlis",
+          "name": "At the end of a Gathering (Majlis)",
           "duas": [
             {
-              "title": "At the end of a Gathering/Majlis - 1",
+              "title": "At the end of a Gathering (Majlis) - 1",
               "arabic": "سُبْحـانَكَ اللّهُـمَّ وَبِحَمدِك، أَشْهَـدُ أَنْ لا إِلهَ إِلاّ أَنْتَ أَسْتَغْفِرُكَ وَأَتوبُ إِلَـيْك",
               "transliteration": "Subhaanaka Allaahumma wa bihamdika, 'ash-hadu 'an laa 'ilaaha 'illaa 'Anta, 'astaghfiruka wa 'atoobu 'ilayka",
               "translation": "Glory is to You, O Allah, and praise is to You. I bear witness that there is none worthy of worship but You. I seek Your forgiveness and repent to You.",
@@ -1151,24 +1463,24 @@ export const useDuasStore = defineStore("duasStore", {
           ]
         },
         {
-          "name": "For protection from Satan/Shaytan",
+          "name": "For protection from Satan (Shaytan)",
           "duas": [
             {
-              "title": "For protection from Satan/Shaytan - 1",
+              "title": "For protection from Satan (Shaytan) - 1",
               "arabic": "وَقُلْ رَّبِّ اَعُوْذُ بِكَ مِنْ هَمَزٰتِ الشَّيٰطِيْنِ. وَاَعُوْذُ بِكَ رَبِّ اَنْ يَّحْضُرُوْنِ.َ",
               "transliteration": "Rabbi ‘a`outhubika min hamazaatish-shayaateeni, wa ‘a`outhu bika rabbi ‘ay-yahdhuroon.",
               "translation": "My Lord! I seek refuge with You from the whisperings (suggestions) of the Shayatin (devils). And I seek refuge with You, My Lord! lest they may attend (or come near) me.",
               "reference": "Surah Al-Mu'minoon - 23:97-98"
             },
             {
-              "title": "For protection from Satan/Shaytan - 2",
+              "title": "For protection from Satan (Shaytan) - 2",
               "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطانِ الرَّجِيْمِ",
               "transliteration": "A'oothu billaahi minash-Shaytaanir-rajeem",
               "translation": "I seek refuge with Allah against the Satan, the outcast.",
               "reference": "Abu Dawud: 4781 Al-Bukhari: 6115"
             },
             {
-              "title": "For protection from Satan/Shaytan - 3",
+              "title": "For protection from Satan (Shaytan) - 3",
               "arabic": "أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
               "transliteration": "A'oothu bikalimaatil-laahit-taammaati min sharri maa khalaqa",
               "translation": "I seek refuge in the Perfect Words of Allah from the evil of what He has created.",
@@ -1616,6 +1928,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "For travel",
+          categories: ['Travel'],
           "duas": [
             {
               "title": "For travel - 1",
@@ -2316,6 +2629,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "Upon entering Mosque",
+          categories: ['Ziyarah'],
           "duas": [
             {
               "title": "Upon entering Mosque - 1",
@@ -2323,6 +2637,13 @@ export const useDuasStore = defineStore("duasStore", {
               "transliteration": "aAAoothu billahil-AAatheem wabiwajhihil-kareem wasultanihil-qadeem minash-shaytanir-rajeem, [bismil-lah, wassalatu] [wassalamu AAala rasoolil-lah] , allahumma iftah lee abwaba rahmatik.",
               "translation": "I take refuge with Allah, The Supreme and with His Noble Face, and His eternal authority from the accursed devil. In the name of Allah, and prayers and peace be upon the Messenger of Allah. O Allah, open the gates of Your mercy for me.",
               "reference": "Abu Dawud: 4591"
+            },
+            {
+              "title": "Upon entering Mosque - 2",
+              "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+              "transliteration": "Allahummaftahli Abwaba Rahmatika",
+              "translation": "Ya Allah! Open for me the doors of your mercy",
+              "reference": ""
             }
           ]
         },
@@ -2352,6 +2673,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "Upon Leaving Mosque",
+          categories: ['Ziyarah'],
           "duas": [
             {
               "title": "Upon Leaving Mosque - 1",
@@ -2359,6 +2681,13 @@ export const useDuasStore = defineStore("duasStore", {
               "transliteration": "Bismil-lah wassalatu wassalamu AAala rasoolil-lah, allahumma innee as-aluka min fadlik, allahumma iAAsimnee minash-shaytanir-rajeem.",
               "translation": "In the name of Allah, and prayers and peace be upon the Messenger of Allah. O Allah, I ask You from Your favour. O Allah, guard me from the accursed devil.",
               "reference": "Muslim: 1:494, Ibn Majah: 1:129"
+            },
+            {
+              "title": "Upon Leaving Mosque - 2",
+              "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+              "transliteration": "Allahumma inni Asaluka min Fadhlik",
+              "translation": "Ya Allah! I ask you for your bounty",
+              "reference": ""
             }
           ]
         },
@@ -2607,7 +2936,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "When Leaving Home",
-          "categories": ['Traveling'],
+          "categories": ['Travel'],
           "duas": [
             {
               "title": "When Leaving Home - 1",
@@ -2856,6 +3185,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "When visiting the graves",
+          categories: ['Ziyarah', 'Madinah'],
           "duas": [
             {
               "title": "When visiting the graves - 1",
@@ -2866,10 +3196,10 @@ export const useDuasStore = defineStore("duasStore", {
             },
             {
               "title": "When visiting the graves - 2",
-              "arabic": "السَّلَامُ عَلَيْكُمُ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ وَإِنَّا إِنْ شَاءَ اللَّهُ بِكُمْ لَاحِقُونَ نَسْأَلُ اللَّهَ لَنَا وَلَكُمُ الْعَافِيَةَ",
-              "transliteration": "Assalaamu 'alaykum 'ahlad-diyaari, minal-mu'mineena walmuslimeena, wa 'innaa 'in shaa' Allaahu bikum laahiqoona [wa yarhamullaahul-mustaqdimeena minnaa walmusta'khireena] 'as'alullaaha lanaa wa lakumul- 'aafiyata.",
-              "translation": "Oh Muslims residing here, salaams on you, by the will of Allah we will also be coming to you. We seek safety for us and you.",
-              "reference": "Muslim 2:671, Ibr Majah 1:494"
+              "arabic": "السَّلَامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ",
+              "transliteration": "As-salamu ‘alaykum ahlad-diyar",
+              "translation": "Peace be upon you, O inhabitants of the graves. (Muslim)",
+              "reference": ""
             }
           ]
         },
@@ -3029,6 +3359,7 @@ export const useDuasStore = defineStore("duasStore", {
         },
         {
           "name": "While returning from travel",
+          categories: ['Travel'],
           "duas": [
             {
               "title": "While returning from travel - 1",
@@ -3148,8 +3479,12 @@ export const useDuasStore = defineStore("duasStore", {
             }
           ]
         }
-      ]
-
+      ].sort(function (a, b) {
+        var textA = a.name.toUpperCase();
+        var textB = b.name.toUpperCase();
+        var foundOrder = (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+        return foundOrder;
+      })
   }),
   actions: {
 
