@@ -1,0 +1,1 @@
+import{a3 as r,p as s,s as u,a4 as o}from"./BaE0Tk7z.js";function c(n){const e=r({dir:s("ltr")});return u(()=>{var t;return(n==null?void 0:n.value)||((t=e.dir)==null?void 0:t.value)||"ltr"})}let a=0;function d(n,e="reka"){const t=r({useId:void 0});return o?`${e}-${o()}`:t.useId?`${e}-${t.useId()}`:`${e}-${++a}`}export{d as a,c as u};
