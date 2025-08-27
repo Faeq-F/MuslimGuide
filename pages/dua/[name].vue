@@ -74,7 +74,7 @@ if (!category) {
             v-if="dua.reference != ''">
             Reference: {{ dua.reference }}
           </p>
-          <div class="flex px-4 justify-center">
+          <!-- <div class="flex px-4 justify-center">
             <button
               class=" overflow-hidden rounded-lg py-1  bg-[#0d80f2] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] px-4">
               <div
@@ -83,7 +83,7 @@ if (!category) {
                 <span class="truncate pl-2">Play</span>
               </div>
             </button>
-          </div>
+          </div> -->
           <p
             class="mt-8 mb-2 text-sm text-center text-slate-400 font-light outline outline-[#e7edf4] dark:outline-[#223649]">
             transliteration

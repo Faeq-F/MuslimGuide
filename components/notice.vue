@@ -36,7 +36,8 @@ const outlineColor = computed(() => {
         <slot name="header" />
       </div>
     </div>
-    <USeparator class="w-full my-2 flex items-center justify-center" />
+    <USeparator class="w-full my-2 flex items-center justify-center"
+      :ui="{ border: 'dark:border-gray-600' }" />
     <div class="w-full">
       <slot />
     </div>

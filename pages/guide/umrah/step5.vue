@@ -4,6 +4,7 @@ function scrollToStartSaey() {
   document.getElementById('mainContent')!.scrollTo({ top: document.getElementById('startsaey')!.offsetTop, behavior: 'smooth' })
 }
 
+import saeyImg from '~/public/media/saey.jpg'
 </script>
 
 <template>
@@ -40,7 +41,7 @@ function scrollToStartSaey() {
         Start Saey
       </div>
       Male pilgrim should cover their shoulder.
-      <br /><br />
+      <img :src="saeyImg" class="rounded-xl my-4" />
       Walk towards Mt. Safa, it is sunnah to recite 1st part of the
       following verse & then the supplication:
       <div

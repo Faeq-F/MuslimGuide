@@ -136,7 +136,8 @@ watch(searchVal, (newSearch, _oldSearch) => {
   <div>
     <UInput icon="i-lucide-search" size="md" variant="outline" color="neutral"
       placeholder="Search Pages..." class="w-full p-1" v-model="searchVal" />
-    <USeparator class="w-[90vw] mx-auto my-0" />
+    <USeparator class="w-[90vw] mx-auto my-0"
+      :ui="{ border: 'dark:border-gray-600' }" />
     <ul class="overflow-y-scroll h-full pt-2 mr-0.5" data-lenis-prevent>
       <li v-for="(page, i) in searchedPages" :key="i"
         class="w-full p-2 pt-0 pr-1">
@@ -144,7 +145,8 @@ watch(searchVal, (newSearch, _oldSearch) => {
           <UButton :icon="page.icon" size="md" color="neutral" variant="soft"
             class="w-full">
             <USeparator orientation="vertical"
-              class="h-6 invert opacity-20 ml-1" />
+              class="h-6 invert opacity-20 ml-1"
+              :ui="{ border: 'dark:border-gray-600' }" />
             <div class="w-full">
               <div
                 class="w-full text-left pl-1.5 flex items-center justify-between">

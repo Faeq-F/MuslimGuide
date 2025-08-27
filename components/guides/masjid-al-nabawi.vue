@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import graveImg from '~/public/media/GraveOfTheProphetAndHisTwoCompanions.jpg'
+</script>
 <template>
   <div>
     <div
@@ -18,6 +21,7 @@
     </div>
     <div
       class="p-4 m-4 mb-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
+      <img :src="graveImg" class="rounded-xl mb-4" />
       Abu Huraira (RA) narrated that the Messenger of Allah ﷺ
       said:
       <br />

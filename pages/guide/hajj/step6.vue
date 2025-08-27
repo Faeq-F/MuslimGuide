@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-
+import stoningImg from '~/public/media/stoning.jpg'
 </script>
 
 
@@ -54,6 +54,7 @@
         class="font-bold  mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
         2
       </div>
+      <img :src="stoningImg" class="rounded-xl my-4" />
       Facing Jamarah (Stoning Pillar), with Makkah to your left and Mina to
       your
       right, throw seven stones at Jamarah reciting the takbir each time you

@@ -5,7 +5,7 @@ export const useDuasStore = defineStore("duasStore", {
     categories: [
       {
         label: 'Umrah',
-        image: "/MuslimGuide/media/umrah.jpg",
+        image: "/MuslimGuide/media/kaba.webp",
         icon: 'i-hugeicons-kaaba-02',
         to: '/dua/umrah~duas'
       },

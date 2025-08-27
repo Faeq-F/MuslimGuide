@@ -1,6 +1,6 @@
-<script setup>
-
-
+<script setup lang="ts">
+import kaabaImg from '~/public/media/kaaba-key-features.jpg'
+import blackStoneImg from '~/public/media/blackstone.webp'
 </script>
 
 <template>
@@ -15,12 +15,13 @@
       It means circling around something with devotion.
       <br /><br />
       During Umrah, it means moving around the ka'abah 7 times.
-      <USeparator class="w-full px-2 my-8" />
+      <USeparator class="w-full px-2 my-8"
+        :ui="{ border: 'dark:border-gray-600' }" />
       One Tawaf is made up of seven complete circuits, with each one
       starting
       and ending at Hajar Aswad (black stone), which is situated within the
       Kaa'bah.
-      <br /><br />
+      <img :src="blackStoneImg" class="rounded-xl my-4" />
       Prophet Muhammad ﷺ said:
       <div
         class="m-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
@@ -31,7 +32,9 @@
       </div>
       If you can touch it without causing harm then its fine, otherwise
       avoid.
-      <USeparator class="w-full px-2 my-8" />
+      <USeparator class="w-full px-2 my-8"
+        :ui="{ border: 'dark:border-gray-600' }" />
+      <img :src="kaabaImg" class="rounded-xl mb-8" />
       Go around the 'U' shape structure. It is called 'Hateem' & it is part
       of the Ka'bah. Praying in it means, you have prayed in the Ka'bah.
       <br /><br />
@@ -69,7 +72,8 @@
       <br /><br />
       Then remaining 4 rounds are completed by walking on a normal pace. You
       can make any dua in any language.
-      <USeparator class="w-full px-2 my-8" />
+      <USeparator class="w-full px-2 my-8"
+        :ui="{ border: 'dark:border-gray-600' }" />
       <div
         class="font-bold  mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
         Start Tawaf:

@@ -9,6 +9,19 @@ const {
 })
 
 autoSetTheme()
+
+import { useRoute } from 'vue-router';
+const route = useRoute()
+if (import.meta.client) {
+  watch(route, (to, from) => {
+    setTimeout(() => {
+      document.getElementById('mainContent').scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      })
+    }, 100)
+  })
+}
 </script>
 
 <template>

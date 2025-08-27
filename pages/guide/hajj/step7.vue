@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-
+import kaabaImg from '~/public/media/kaaba-key-features.jpg'
 </script>
 
 
@@ -18,6 +18,7 @@
       depending the opinion pilgrim follows.
       <br /><br />
       Enter Masjid ul-Haram & start the tawaf from the black stone.
+      <img :src="kaabaImg" class="rounded-xl mt-4" />
     </div>
     <div
       class="p-4 m-4 mb-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
