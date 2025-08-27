@@ -2,6 +2,8 @@
 import { ref, watch } from 'vue';
 import { useThemeHandler } from 'maz-ui'
 
+import AddToHomeButton from '~/components/addToHomeScreen.vue'
+
 import { useSettingsStore } from '~/stores/localStorage'
 const settings = useSettingsStore()
 
@@ -79,6 +81,7 @@ watch(userName, (newName) => {
           color="neutral" v-model="activeTheme" />
       </div>
     </div>
+    <AddToHomeButton />
     <USeparator class="w-full mt-8 mb-2"
       :ui="{ border: 'dark:border-[#223649] border-[#e7edf4]' }" />
     <div class="text-sm">

@@ -11,6 +11,11 @@ export default defineNuxtConfig({
     head: {
       link: [
         { rel: "icon", type: "image/svg", href: "/MuslimGuide/favicon.png" },
+        { rel: "manifest", href: "/MuslimGuide/manifest.json" },
+        { rel: "stylesheet", href: "https://cdn.jsdelivr.net/gh/philfung/add-to-homescreen@3.4/dist/add-to-homescreen.min.css" }
+      ],
+      script: [
+        { src: "https://cdn.jsdelivr.net/gh/philfung/add-to-homescreen@3.4/dist/add-to-homescreen.min.js" }
       ],
       title: "Muslim Guide"
     },

@@ -1,0 +1,15 @@
+{
+  "short_name": "Muslim Guide",
+  "name": "Muslim Guide - Duas and Umrah, Hajj & Madinah Guides",
+  "display": "standalone",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

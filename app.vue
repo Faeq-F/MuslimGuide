@@ -1,8 +1,24 @@
 <script setup lang="ts">
 import { VueLenis } from 'lenis/vue'
+import { onMounted } from 'vue';
 const lenisOptions = {
   anchors: true
 }
+
+onMounted(() => {
+  document.addEventListener('DOMContentLoaded', function () {
+    window.AddToHomeScreenInstance = window.AddToHomeScreen({
+      appName: 'Muslim Guide',
+      appNameDisplay: 'standalone',
+      appIconUrl: '/favicon.png',
+      assetUrl: 'https://cdn.jsdelivr.net/gh/philfung/add-to-homescreen@3.4/dist/assets/img/',
+      maxModalDisplayCount: -1,
+      displayOptions: { showMobile: true, showDesktop: true },
+      allowClose: true,
+      showArrow: true,
+    })
+  })
+})
 </script>
 <template>
   <VueLenis root :options="lenisOptions" />
