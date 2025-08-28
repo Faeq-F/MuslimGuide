@@ -1,175 +1,207 @@
-<script setup lang="ts">
-
-function scrollToStartSaey() {
-  document.getElementById('mainContent')!.scrollTo({ top: document.getElementById('startsaey')!.offsetTop, behavior: 'smooth' })
-}
-
-import saeyImg from '~/public/media/saey.jpg'
-</script>
-
 <template>
   <div>
     <div
       class="p-4 m-4 mb-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
-      <div
-        class="font-bold  mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
-        1
-      </div>
-      Saey literally means to walk / to strive.
+      After completing the tawaf, offer 2 units of prayer behind
+      'Maqam-e-Ibrahim' (Station of Ibrahim)
       <br /><br />
-      In Umrah it means to walk between the hilltops of Mount Safa & Mount
-      Marwa 7 times.
-    </div>
-    <Notice type="info">
-      <template #header>
-        Hajar
-      </template>
-      Here you act like Hajar, the mother of Ismail.
-      <br /><br />
-      Allah ordered Ibrahim AS to leave Hajar AS & Ismail AS in the barren
-      land of Makkah & she remained patient & steadfast.
-      <br /><br />
-      Our running between the 2 green lights is replicating her hurrying to
-      find food for her son Ismail AS.
-      <br /><br />
-      Allah loved the action & made it part of Umrah.
-    </Notice>
-    <div id="startsaey"
-      class="p-4 m-4 mb-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
-      <div
-        class="font-bold  mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
-        Start Saey
-      </div>
-      Male pilgrim should cover their shoulder.
-      <img :src="saeyImg" class="rounded-xl my-4" />
-      Walk towards Mt. Safa, it is sunnah to recite 1st part of the
-      following verse & then the supplication:
+      Recite Surah Al-Fatiha & Surah Al-Kafiroon in the 1st rakah
       <div
         class="m-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
+        <div
+          class="font-bold text-center pt-1 mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
+          Surah Al-Fatiha
+        </div>
         <p
-          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 text-center">
-          إِنَّ ٱلصَّفَا وَٱلۡمَرۡوَةَ مِن شَعَآئِرِ ٱللَّهِۖ
+          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4">
+          <span class="text-sm font-bold">1.</span> بِسْمِ اللَّهِ الرَّحْمَٰنِ
+          الرَّحِيمِ<br />
+          <span class="text-sm font-bold">2.</span> الْحَمْدُ لِلَّهِ رَبِّ
+          الْعَالَمِينَ<br />
+          <span class="text-sm font-bold">3.</span> الرَّحْمَٰنِ
+          الرَّحِيمِ<br />
+          <span class="text-sm font-bold">4.</span> مَالِكِ يَوْمِ
+          الدِّينِ<br />
+          <span class="text-sm font-bold">5.</span> إِيَّاكَ نَعْبُدُ وَإِيَّاكَ
+          نَسْتَعِينُ<br />
+          <span class="text-sm font-bold">6.</span> ٱهْدِنَا ٱلصِّرَٰطَ
+          ٱلْمُسْتَقِيمَ<br />
+          <span class="text-sm font-bold">7.</span> صِرَاطَ الَّذِينَ أَنْعَمْتَ
+          عَلَيْهِمْ
+          غَيْرِ
+          الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ<br />
         </p>
         <p
           class="mt-4 mb-2 text-sm text-center text-slate-400 font-light outline outline-[#e7edf4] dark:outline-[#223649]">
           transliteration
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
-          Inna s-safa wa l-marwata min sha'a'iri llah(i)
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
+          <span class="text-sm font-bold">1. </span>Bismillaahir Rahmaanir
+          Raheem<br />
+          <span class="text-sm font-bold">2. </span>Alhamdu lillaahi Rabbil
+          'aalameen<br />
+          <span class="text-sm font-bold">3. </span>Ar-Rahmaanir-Raheem<br />
+          <span class="text-sm font-bold">4. </span>Maaliki Yawmid-Deen<br />
+          <span class="text-sm font-bold">5. </span>Iyyaaka na'budu wa lyyaaka
+          nasta'een<br />
+          <span class="text-sm font-bold">6.
+          </span>Ihdinas-Siraatal-Mustaqeem<br />
+          <span class="text-sm font-bold">7. </span>Siraatal-lazeena an'amta
+          'alaihim ghayril-maghdoobi 'alaihim wa
+          lad-daaalleen<br />
         </p>
         <p
           class="mt-4 mb-2 text-sm text-center text-slate-400 font-light outline outline-[#e7edf4] dark:outline-[#223649]">
           translation
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
-          Indeed, Safa and Marwa are from the Signs of Allah. [Surah al-Baqarah,
-          2:158]
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
+          <span class="text-sm font-bold">1. </span>In the name of Allah, Most
+          Gracious, Most Merciful<br />
+          <span class="text-sm font-bold">2. </span>Praise be to Allah, the
+          Cherisher and Sustainer of the worlds;<br />
+          <span class="text-sm font-bold">3. </span>Most Gracious, Most
+          Merciful;<br />
+          <span class="text-sm font-bold">4. </span>Master of the Day of
+          Judgment.<br />
+          <span class="text-sm font-bold">5. </span>Thee do we worship, and
+          Thine aid we seek.<br />
+          <span class="text-sm font-bold">6. </span>Show us the straight
+          way,<br />
+          <span class="text-sm font-bold">7. </span>The way of those on whom
+          Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and
+          who go not astray.<br />
         </p>
       </div>
       <div
         class="m-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
+        <div
+          class="font-bold text-center pt-1 mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
+          Surah Al-Kafiroon
+        </div>
         <p
-          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 text-center">
-          أَبْدَأُ بِمَا بَدَأَ اللهُ بِهِ
+          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 ">
+          <span class="text-sm font-bold">1.</span>
+          بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+          <br /><span class="text-sm font-bold">2.</span>
+          قُلْ يَا أَيُّهَا الْكَافِرُونَ
+          <br /><span class="text-sm font-bold">3.</span>
+          لَا أَعْبُدُ مَا تَعْبُدُونَ
+          <br /><span class="text-sm font-bold">4.</span>
+          وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ
+          <br /><span class="text-sm font-bold">5.</span>
+          وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ
+          <br /><span class="text-sm font-bold">6.</span>
+          وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ
+          <br /><span class="text-sm font-bold">7.</span>
+          لَكُمْ دِينُكُمْ وَلِيَ دِينِ
         </p>
         <p
           class="mt-4 mb-2 text-sm text-center text-slate-400 font-light outline outline-[#e7edf4] dark:outline-[#223649]">
           transliteration
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
-          Abda'u bima bad'allahu bihi
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
+          <span class="text-sm font-bold">1. </span>Bismillaahir Rahmaanir
+          Raheem<br />
+          <span class="text-sm font-bold">2. </span>Qul yaaa-ayyuhal
+          kaafiroon<br />
+          <span class="text-sm font-bold">3. </span>Laaa a'budu maa
+          t'abudoon<br />
+          <span class="text-sm font-bold">4. </span>Wa laaa antum 'aabidoona
+          maaa a'bud<br />
+          <span class="text-sm font-bold">5. </span>Wa laaa ana 'abidum maa
+          'abattum<br />
+          <span class="text-sm font-bold">6. </span>Wa laaa antum 'aabidoona
+          maaa a'bud<br />
+          <span class="text-sm font-bold">7. </span>Lakum deenukum wa liya deen.
         </p>
         <p
           class="mt-4 mb-2 text-sm text-center text-slate-400 font-light outline outline-[#e7edf4] dark:outline-[#223649]">
           translation
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
-          I begin with that which Allah has begun with
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
+          <span class="text-sm font-bold">1. </span>In the name of Allah, Most
+          Gracious, Most Merciful.<br />
+          <span class="text-sm font-bold">2. </span>Say : O ye that reject
+          Faith!<br />
+          <span class="text-sm font-bold">3. </span>I worship not that which ye
+          worship,<br />
+          <span class="text-sm font-bold">4. </span>Nor will ye worship that
+          which I worship.<br />
+          <span class="text-sm font-bold">5. </span>And I will not worship that
+          which ye have been wont to worship,<br />
+          <span class="text-sm font-bold">6. </span>Nor will ye worship that
+          which I worship.<br />
+          <span class="text-sm font-bold">7. </span>To you be your Way, and to
+          me mine.<br />
         </p>
       </div>
-    </div>
-    <div
-      class="p-4 m-4 mb-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
-      <div
-        class="font-bold  mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
-        2
-      </div>
-      Then recite the following supplication from Sunnah or make any Dua.
-      <br /><br />
-      You can read this supplication three times and make personal Dua in
-      between, and start walking towards Marwa.
+      Recite Surah Al-Fatiha & Surah Al-Ikhlas in the 2nd rakah
       <div
         class="m-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
+        <div
+          class="font-bold text-center pt-1 mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
+          Surah Al-Ikhlas
+        </div>
         <p
-          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 text-center">
-          اَللّٰهُ أَكْبَرُ اَللّٰهُ أَكْبَرُ اَللّٰهُ أَكْبَرُ
-          <br /><br />
-          لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ،
-          وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ، وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ‏
-          <br /><br />
-          لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ أَنْجَزَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ
-          وَهَزَمَ الأَحْزَابَ وَحْدَهُ.
+          class="mt-2 text-[#0d141c] dark:text-white text-2xl font-normal leading-normal pt-1 px-4 ">
+          <span class="text-sm font-bold">1.</span>
+          بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+          <br /><span class="text-sm font-bold">2.</span>
+          قُلْ هُوَ اللَّهُ أَحَدٌ
+          <br /><span class="text-sm font-bold">3.</span>
+          اللَّهُ الصَّمَدُ
+          <br /><span class="text-sm font-bold">4.</span>
+          لَمْ يَلِدْ وَلَمْ يُولَدْ
+          <br /><span class="text-sm font-bold">5.</span>
+          وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ
         </p>
         <p
           class="mt-4 mb-2 text-sm text-center text-slate-400 font-light outline outline-[#e7edf4] dark:outline-[#223649]">
           transliteration
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
-          Allahu akbar, Allahu akbar, Allahu akbar
-          <br /><br />
-          La ilaha illallah wahdahu la sharīka lah(u), lahu l-mulku wa lahu
-          l-hamdu
-          yuhyi wa yumit(u), wa huwa 'ala kulli shay'in qadir.
-          <br /><br />
-          La ilaha illallahu wahdah(u), anjaza wa'dahu wa nasara 'abdahu wa
-          hazama
-          l-ahzaba wahdah.
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
+          <span class="text-sm font-bold">1. </span>
+          Bismillaahir Rahmaanir Raheem
+          <br />
+          <span class="text-sm font-bold">2. </span>
+          Qul huwal laahu ahad
+          <br />
+          <span class="text-sm font-bold">3. </span>
+          Allah hus-samad
+          <br />
+          <span class="text-sm font-bold">4. </span>
+          Lam yalid wa lam yoolad
+          <br />
+          <span class="text-sm font-bold">5. </span>
+          Wa lam yakul-lahoo kufuwan ahad
         </p>
         <p
           class="mt-4 mb-2 text-sm text-center text-slate-400 font-light outline outline-[#e7edf4] dark:outline-[#223649]">
           translation
         </p>
         <p
-          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
-          Allah is the greatest; Allah is the greatest; Allah is the greatest.
-          <br /><br />
-          There
-          is no deity except Allah, alone without a partner. To Him belongs the
-          Dominion, and to Him belongs all praise. He gives life and death and
-          He has power over everything.
-          <br /><br />
-          There is no deity except Allah alone. He
-          fulfilled His promise, supported His slave and defeated the
-          confederates alone.
+          class="text-[#0d141c] dark:text-white text-base font-normal leading-normal pb-3 pt-1 px-4 ">
+          <span class="text-sm font-bold">1. </span>
+          In the name of Allah, Most Gracious, Most Merciful.
+          <br />
+          <span class="text-sm font-bold">2. </span>
+          Say: He is Allah, the One and Only;
+          <br />
+          <span class="text-sm font-bold">3. </span>
+          Allah, the Eternal, Absolute;
+          <br />
+          <span class="text-sm font-bold">4. </span>
+          He begetteth not, nor is He begotten;
+          <br />
+          <span class="text-sm font-bold">5. </span>
+          And there is none like unto Him.
         </p>
       </div>
-      <br />
-      After the supplication, proceed towards Marwa while making any Dua.
-      <br /><br />
-      A pilgrim will complete one circuit after reaching 'Marwa' and repeat
-      <br />
-      <nuxt-link @click="scrollToStartSaey"
-        class="rounded-xl border-2 underline border-[#e7edf4] dark:border-[#223649] p-2 m-1 block">
-        Saey point 1 ("Start Saey")
-      </nuxt-link>
-      <br />
-      <b>Note:</b> If possible men should run between the 2 green pillars
-      (lights)
-      if they are able to and women walk at their normal pace
-    </div>
-    <div
-      class="p-4 m-4 mb-2 border border-[#e7edf4] dark:border-[#223649]  rounded-2xl">
-      <div
-        class="font-bold  mb-2 underline decoration-1 decoration-[#e7edf4] dark:decoration-[#223649] underline-offset-4">
-        3
-      </div>
-      Upon reaching mount Marwa for the last time, you have completed the
-      Saey.
     </div>
   </div>
 </template>

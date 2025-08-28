@@ -98,11 +98,11 @@ export const useDuasStore = defineStore("duasStore", {
           ]
         },
         {
-          name: "Du'a for first Approaching Safaa",
+          name: "Du'a for First Approaching Safaa",
           categories: ['Umrah'],
           "duas": [
             {
-              "title": "First Approaching Safaa - 1",
+              "title": "Du'a for First Approaching Safaa - 1",
               "arabic": "إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَآئِرِ اللّٰهِ فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَنْ يَطَّوَّفَ بِهِمَا وَمَنْ تَطَوَّعَ خَيْرًا فَإِنَّ اللّٰهَ شَاكِرٌ عَلِيمٌ",
               "transliteration": "Innas-safaa wal marwata min sha'aa'irillaah, faman hajjal baita 'aw i'tamara falaa janaaha 'alaihi an yattawwafa bihimaa wa man tatawwa'a khiran fa'innallaaha shaakirun 'aleem",
               "translation": "Verily, As-Safaa and Al-Marwah are from the symbols of Allaah. So it is not a sin on him who performs Hajj or Umrah of the house (ka'ba) to perform the going (tawaaf) between them. And whoever does good voluntarily, then verily, Allah is the All-Recognizer, All-Knower.",
@@ -128,7 +128,7 @@ export const useDuasStore = defineStore("duasStore", {
           categories: ["Travel"],
           "duas": [
             {
-              "title": "At Journey Break - 1",
+              "title": "Du'a At Journey Break - 1",
               "arabic": "أَعُوذُبِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
               "transliteration": "A’uthoo bi-kalimaa tillaah-hitammaa ti-min sharri maa khalaq",
               "translation": "I take refuge in Allah’s perfect words from the evil that He has created.",
@@ -141,7 +141,7 @@ export const useDuasStore = defineStore("duasStore", {
           categories: ["Madinah"],
           "duas": [
             {
-              "title": "Seeking the Prophet (SAW)'s Intercession - 1",
+              "title": "Du'a for Seeking the Prophet (SAW)'s Intercession - 1",
               "arabic": "يَا رَسُولَ اللهِ، أَسْأَلُكَ الشَّفَاعَةَ وَأَتَوَسَّلُ بِكَ إِلَى اللهِ أَنْ أَمُوتَ مُسْلِمًا عَلَى مِلَّتِكَ وَسُنَّتِكَ",
               "transliteration": "Yā rasūla llāh as’aluka ash-shafā’ata wa atawassalu bika ila llāhi ‘an ‘amūta Musliman ‘ala millatika wa sunnatik.",
               "translation": "O Rasulullah! I request your intercession, and I ask Allah, through you, to enable me to die on your religion and your Sunnah.",
@@ -154,7 +154,7 @@ export const useDuasStore = defineStore("duasStore", {
           categories: ["Madinah"],
           "duas": [
             {
-              "title": "Salaam on Behalf of Others - 1",
+              "title": "Du'a to give Salaam on Behalf of Others - 1",
               "arabic": "السَّلَامُ عَلَيْكَ يَا رَسُولَ اللهِ مِنْ فُلَانٍ بْنِ فُلَانٍ",
               "transliteration": "As-salāmu ‘alayka yā rasūla llāh min fulān ibni (binti) fulān.",
               "translation": "Peace be upon you O Messenger of Allah from ……, son (daughter) of …….",
@@ -167,7 +167,7 @@ export const useDuasStore = defineStore("duasStore", {
           categories: ["Madinah"],
           "duas": [
             {
-              "title": "Greeting Abu Bakr al-Siddiq (RA) - 1",
+              "title": "Du'a for greeting Abu Bakr al-Siddiq (RA) - 1",
               "arabic": "السَّلَامُ عَلَيْكَ يَا أَبُو بَكْرٍ",
               "transliteration": "As-salāmu ‘alayka yā Abu Bakr.",
               "translation": "Peace be upon you, O Abu Bakr.",
@@ -176,11 +176,11 @@ export const useDuasStore = defineStore("duasStore", {
           ]
         },
         {
-          name: "Du'a for greeting Umar Ibn Al-Khattab",
+          name: "Du'a for greeting Umar Ibn Al-Khattab (RA)",
           categories: ["Madinah"],
           "duas": [
             {
-              "title": "Greeting Umar Ibn Al-Khattab - 1",
+              "title": "Du'a for greeting Umar Ibn Al-Khattab (RA) - 1",
               "arabic": "السَّلَامُ عَلَيْكَ يَا عُمَرُ",
               "transliteration": "As-salāmu ‘alayka yā ‘Umar.",
               "translation": "Peace be upon you, O Umar.",
@@ -192,7 +192,7 @@ export const useDuasStore = defineStore("duasStore", {
           name: "Du'a for when entering Madinah",
           duas: [
             {
-              'title': "Entering Madinah - 1",
+              'title': "Du'a for when entering Madinah - 1",
               arabic: "اللَّهُمَّ هَذَا حَرَمُ نَبِيِّكَ فَاجْعَلْهُ وِقَايَةً لِي مِنَ النَّارِ، وَأَمَانًا مِنَ الْعَذَابِ وَسُوءِ الْحِسَابِ",
               transliteration: "Allāhumma hādhā ḥaramu nabiyyika faj‘alhu wiqāyatan lī mina n-nāri wa amānan mina l-‘adhābi wa sū’a l-ḥisāb.",
               translation: "O Allah, this is the Sacred Precinct of Your Prophet, so make it a protection for me from the Fire and a security from punishment and a bad reckoning.",
@@ -205,7 +205,7 @@ export const useDuasStore = defineStore("duasStore", {
           name: "Du'a for when entering Madinah Masjid",
           duas: [
             {
-              'title': "Entering Madinah Masjid - 1",
+              'title': "Du'a for when entering Madinah Masjid - 1",
               arabic: "بِسْمِ اللَّهِ، اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، اللَّهُمَّ اغْفِرْ لِي وَافْتَحْ لِي أَبْوَابَ رَحْمَتِك",
               transliteration: "Bismi-llāh, Allāhumma ṣalli ʿalā Muḥammad. Allāhumma-ghfir lī wa-ftaḥ lī abwāba raḥmatik.",
               translation: "In the name of Allah, send blessings upon Muhammad. O Allah, open for me the doors of Your Bounty.",

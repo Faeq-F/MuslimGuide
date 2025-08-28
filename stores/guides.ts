@@ -15,7 +15,10 @@ export const useGuidesStore = defineStore("guidesStore", {
         "name": "Entering the Masjid Al-Haram",
       },
       {
-        "name": "Perform - Tawaf x 7",
+        "name": "Perform Tawaf x 7",
+      },
+      {
+        "name": "Prayer behind Maqam-e-Ibrahim",
       },
       {
         "name": "Perform Saey (Safa & Marwa)",
