@@ -1,21 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'local_web_server.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const App());
+  final url = await LocalWebServer.start();
+  runApp(App(url: url));
 }
 
 class App extends StatelessWidget {
-  const App({super.key});
+  final String url;
+  const App({super.key, required this.url});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WebViewPage(
-        url: "https://faeq-f.github.io/MuslimGuide",
-      ),
+      home: WebViewPage(url: url),
     );
   }
 }
