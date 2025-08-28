@@ -1,0 +1,36 @@
+name: muslim_guide
+description: "Duas and Umrah, Hajj & Madinah Guides"
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.4.1
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  webview_flutter: ^4.8.0
+  path_provider: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  shelf: any
+  shelf_static: any
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    - assets/images/
